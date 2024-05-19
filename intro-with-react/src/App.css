@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns items to the left */
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px; /* Padding for overall spacing */
+  font-family: 'Inter', sans-serif; /* Ensures Inter font is used */
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Aligns logo and text vertically */
+}
+
+.logo {
+  width: 483px; /* Adjust size as needed */
+  height: 560px;
+  margin-right: 20px; /* Space between logo and text */
+}
+
+.text-block {
+  text-align: left;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: -0.019em;
+  color: #000; /* Text color */
+}
+
+.subtitle {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.019em;
+  color: #666; /* Subtitle color */
+}
+
+.buttons {
+  gap: 80px; /* Space between buttons */
+  margin-top: 20px; /* Space below text block */
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signin {
+  background-color: #692E47;
+  margin-left: 800px;
+}
+
+.signup {
+  background-color: #E9624C;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
