@@ -1,0 +1,150 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-heading {
+    font-size: 36px;
+    color: #E9624C;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .table-container {
+    border: 2px solid #E9624C;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 500px;
+    max-width: 90%;
+    overflow: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .select-wrapper {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .date-picker-wrapper {
+    flex: 1;
+    position: relative;
+  }
+  
+  .react-datepicker-wrapper {
+    width: 150px; /* Reduce width for the date picker */
+    display: flex;
+    align-items: center;
+  }
+  
+  .react-datepicker__input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .react-datepicker__input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #E9624C;
+    color: #692E47;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+  }
+  
+  .react-datepicker__close-icon {
+    background: #E9624C;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .react-datepicker {
+    z-index: 1000 !important;
+  }
+  
+  .calendar-icon {
+    margin-left: -30px;
+    pointer-events: none;
+    color: #E9624C;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #E9624C;
+    color: #692E47;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+  
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    min-width: 1000px;
+  }
+  
+  thead {
+    background-color: #E9624C;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #F9F9F9;
+  }
+  
+  tbody tr:hover {
+    background-color: #692E47;
+    color: white;
+  }
+  
+  tbody tr:hover td a {
+    color: white;
+  }
+  
+  a {
+    color: #E9624C;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
